@@ -1,0 +1,42 @@
+.chat-list {
+    overflow-y: scroll;
+    height: 400px; /* Adjust based on your layout */
+  }
+  
+  .chat-item {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    max-width: 80%;
+  }
+  
+  .sent {
+    background-color: #007bff;
+    align-self: flex-end;
+  }
+  
+  .received {
+    background-color: #343a40;
+    align-self: flex-start;
+  }
+  
+  .chat-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .chat-input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .send-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
